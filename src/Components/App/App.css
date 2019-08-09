@@ -1,0 +1,18 @@
+#container {
+  border: 2px solid black;
+  height: 100%;
+  margin: 10px;
+}
+#rightContainer,
+#leftContainer {
+  width: 48%;
+  border: 2px solid black;
+  margin-top: 10px;
+  min-height: 100% !important;
+}
+#rightContainer {
+  float: right;
+}
+#leftContainer {
+  float: left;
+}
